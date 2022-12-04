@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "brands-corr"
+version = "0.1.0"
+description = ""
+authors = ["Egor Semin <e.semin@expf.ru>"]
+readme = "README.md"
+packages = [{include = "brands_corr"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^1.5.2"
+numpy = "^1.23.5"
+plotly = "^5.11.0"
+plotly-express = "^0.4.1"
+scipy = "^1.9.3"
+statsmodels = "^0.13.5"
+seaborn = "^0.12.1"
+networkx = "^2.8.8"
+ipywidgets = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
